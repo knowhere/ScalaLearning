@@ -58,6 +58,7 @@ object HelloWorld {
         }
         
         withOp(List(1, 2,3), a => println(a))
+        println("github");
         
     }
 }
