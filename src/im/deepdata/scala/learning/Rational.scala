@@ -1,6 +1,6 @@
-package zxy.test
+package im.deepdata.scala.learning
 
-class Rational(a: Int, b: Int) {
+class Rational(val a: Int, val b: Int) {
     require(b != 0)
     val numer: Int = a
     val denom: Int = b

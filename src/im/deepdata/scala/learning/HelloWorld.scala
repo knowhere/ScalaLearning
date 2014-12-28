@@ -1,4 +1,4 @@
-package zxy.test
+package im.deepdata.scala.learning
 
 object HelloWorld {
 
@@ -15,7 +15,7 @@ object HelloWorld {
         println(oneHalf.reduction)
         oneHalf + oneHalf
 
-        val test = for (i <- 1 to 10 if (i % 2 == 0) if (i % 3 == 0)) yield { i + 1 }
+        val test = for (i <- 1 to 10 if (i % 2 == 0); if (i % 3 == 0)) yield { i + 1 }
 
         println(test)
 
@@ -58,7 +58,7 @@ object HelloWorld {
         }
         
         withOp(List(1, 2,3), a => println(a))
-        println("github");
-        
+        println("github")
+        println(oneHalf.reduction())
     }
 }
