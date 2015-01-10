@@ -3,7 +3,7 @@ package im.deepdata.scala.learning
 object HelloWorld {
 
     def f() = {
-        "°¢Ë¹µÙ·Ò"
+        "test"
     }
 
     override def toString(): String =
@@ -51,7 +51,7 @@ object HelloWorld {
         println(curriedSum(1)(2))
         val a: Int = 10
         val one = curriedSum(1)_
-//        println(one(a))
+        println(one(a))
 
         def withOp(list: List[Int], op: Int => Unit) = {
             list.foreach(op)
